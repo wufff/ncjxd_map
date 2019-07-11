@@ -1,0 +1,95 @@
+/*主色 #3ce3e3*/
+body{ background:url("../img/mapbg.png") no-repeat; background-size: 100% auto; position: relative;}
+.border { border:1px solid yellow; }
+.title { 
+	font-size: 1.5vw;
+	height: 6vh;
+	
+	font-weight:500; text-align: center;letter-spacing: 5px;
+	background:url("../img/head.png") no-repeat;
+	background-position: center 0;
+	background-size: auto 100%;
+}
+
+
+.top { height: 55vh; width:100%; margin: 0 auto;}
+.top .map {float:right;width:39%; height: 55vh;}
+.top .info{float: right;height:54vh;padding-top:76px;width: 30%;height: 55vh}
+.top .area  {float: left; width: 31%;padding-top:76px;height: 55vh;padding-left: 8%;box-sizing: border-box;}
+.top .area .head { background-image: url("../img/map_title.png");margin-bottom: 25px;width: 340px;
+	height: 30px; } 
+.top .area .bodybg { width:82%;height: 100%;background: url('../img/leftBg.png') no-repeat;background-size: contain;position: relative; }
+.top .area .bodybg span {color:#00bfe9;position: absolute;}
+.map {position: relative;}
+.map #back {position: absolute; left: 10%; top:15%;z-index: 999;
+	display: block; width: 40px;height: 40px;
+	background: url('../img/map_title.png') no-repeat;
+	background-position: 0 -156px;
+	cursor: pointer;
+}
+.top .info  { position: relative;left: -3%; }
+.top .info .head {color:#3ce3e3;font-size: 28px;
+	text-align: center;
+	width: 247px;
+	height: 30px;
+	background-image: url("../img/map_title.png");
+	margin-bottom: 33px;
+	background-position: 0 -37px;
+}
+.top .info .body { height: 50vh;position: relative; }
+
+.top .info .body > div {width: 100%;text-align: center;margin-bottom: 32px;}
+.top .info .body > div > div {display:inline-block;color: #9fceff;margin-right:12%; }
+.top .info .body .name { font-size: 21px;margin-bottom: 20px;}
+.top .info .body .num {font-size: 37px;}
+.itite { text-align: center; color:#ffa200;padding-top: 45%; }
+
+/*@media (max-width: 1880px){
+    .top .info .body .name {font-size: 20px;margin-bottom: 10px;}
+    .top .info .body .num {font-size: 26px;}
+    .top .info .head { margin-bottom: 28px; }
+    .top .info .body > div { margin-bottom: 10px; }
+   
+}
+*/
+@media (max-width: 1620px){
+    .top .info .body .name {font-size: 18px;margin-bottom: 10px;}
+    .top .info .body .num {font-size: 24px;}
+    .top .info .head { margin-bottom: 28px; }
+    .top .info .body > div { margin-bottom: 10px; }
+   
+}
+
+
+@media (max-width: 1420px){
+    .top .info .body .name {font-size: 16px;}
+    .top .info .body .num {font-size: 20px;}
+    .itite { font-size: 10px; }
+}
+
+
+
+.bottom { height:39vh;box-sizing: border-box;}
+.bottom > div {float: left;color:#fff;height: 100%;position: relative}
+.bottom  .itemTitle { position: absolute;height: 26px;background: url("../img/map_title.png") no-repeat;left: 48px;top:20px;}
+.bottom  .itemTitle1 { width: 162px; background-position: 0 -70px; }
+.bottom  .itemTitle2 { width: 272px;background-position: 0 -98px;height:28px;  }
+.bottom  .itemTitle3 { width: 221px;background-position: 0 -129px;  height:26px;}
+.bottom .bottom_1 { width:34%; }
+.bottom .bottom_2 { width:39%;}
+.bottom .bottom_3 { width:27%; }
+
+/* svg path {
+    fill: #003752;
+    stroke: #00bfe9;
+    stroke-width: 2px;
+ }*/
+svg path:hover{
+       fill:#021368;
+      
+   }
+svg text, svg tspan {
+	 
+  
+   /* cursor: pointer;*/
+}
